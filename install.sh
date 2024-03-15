@@ -4,7 +4,7 @@
 if ! command -v docker &> /dev/null; then
     echo "Installing Docker..."
     sudo apt update
-    sudo apt install docker.io
+    sudo apt install -y docker.io
 fi
 
 # Start and enable Docker service
